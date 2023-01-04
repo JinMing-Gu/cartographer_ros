@@ -16,6 +16,7 @@ cmake_minimum_required (VERSION 2.8.7)
 
 project(cartographer_ros_docs)
 
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
 find_package(Sphinx)
 if(SPHINX_FOUND)
   set(OUTPUT_DIR "${PROJECT_BINARY_DIR}/docs/html")

@@ -16,6 +16,7 @@ cmake_minimum_required(VERSION 2.8.3)
 
 project(cartographer_ros_msgs)
 
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
 set(PACKAGE_DEPENDENCIES
   geometry_msgs
   std_msgs

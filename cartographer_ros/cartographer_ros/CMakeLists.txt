@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+SET(CMAKE_CXX_FLAGS "-std=c++0x")
 google_binary(cartographer_assets_writer
   SRCS
     assets_writer_main.cc
